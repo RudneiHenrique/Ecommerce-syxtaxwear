@@ -1,0 +1,25 @@
+/* Product Grid Component */
+
+.product-grid {
+  /* Product grid section styles */
+}
+
+.product-grid__list {
+  /* Product list container styles */
+}
+
+.product-card {
+  /* Product card styles */
+}
+
+.product-card__image {
+  /* Product card image styles */
+}
+
+.product-card__price {
+  /* Product price styles */
+}
+
+.product-card button {
+  /* Product buy button styles */
+}

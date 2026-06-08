@@ -1,0 +1,71 @@
+/* Header Component */
+
+.header {
+    /* Header styles */
+    background-color: #ffffff;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    border-radius: 15px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    ~align-items: center;
+    padding: 12px 20px;
+
+}
+
+.logo {
+
+    /* Logo styles */
+    img {
+        width: 150px;
+        height: 48px;
+
+    }
+}
+
+.nave-center ul {
+    /* Center navigation styles */
+    display: flex;
+    gap: 2.5rem;
+
+}
+
+.nave-center a,
+.nave-right a{
+font-size: 1.5rem;
+}
+
+.nave-center a:hover,
+.nave-right a:hover{
+font-size: 1.5rem;
+color: #7c3aed;
+}
+
+.nave-right ul {
+    /* Right navigation styles */
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+.nave-right img{
+    height: 20px;
+}
+.nave-right a:hover img{
+    opacity: 0.7;
+}
+
+.header__actions {
+    /* Header actions styles */
+}
+
+.search-placeholder {
+    /* Search placeholder styles */
+}
+
+.user-icons {
+    /* User icons styles */
+}
